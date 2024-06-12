@@ -1,0 +1,66 @@
+2024-06-12 10:39:10,595 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-06-12 10:39:10,604 INFO o.a.j.JMeter: Loading user properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/user.properties
+2024-06-12 10:39:10,605 INFO o.a.j.JMeter: Loading system properties from: /opt/homebrew/Cellar/jmeter/5.6.3/libexec/bin/system.properties
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: Version 5.6.3
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: java.version=21.0.3
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: os.name=Mac OS X
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: os.arch=aarch64
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: os.version=13.2
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: java.awt.headless=true
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-06-12 10:39:10,607 INFO o.a.j.JMeter: Available Processors =10
+2024-06-12 10:39:10,612 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-06-12 10:39:10,612 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-06-12 10:39:10,612 INFO o.a.j.JMeter: JMeterHome=/opt/homebrew/Cellar/jmeter/5.6.3/libexec
+2024-06-12 10:39:10,612 INFO o.a.j.JMeter: user.dir  =/Users/sblasch/Documents/Test Automation/JMeter/Bundle-Engine-Test
+2024-06-12 10:39:10,612 INFO o.a.j.JMeter: PWD       =/Users/sblasch/Documents/Test Automation/JMeter/Bundle-Engine-Test
+2024-06-12 10:39:10,619 INFO o.a.j.JMeter: IP: 192.168.1.161 Name: Stevens-MBP FullName: stevens-mbp
+2024-06-12 10:39:10,625 INFO o.a.j.s.FileServer: Default base='/Users/sblasch/Documents/Test Automation/JMeter/Bundle-Engine-Test'
+2024-06-12 10:39:10,626 INFO o.a.j.s.FileServer: Set new base='/Users/sblasch/Documents/Test Automation/JMeter/Bundle-Engine-Test'
+2024-06-12 10:39:10,707 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-06-12 10:39:10,731 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-06-12 10:39:10,732 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-06-12 10:39:10,734 INFO o.a.j.s.SaveService: Loading file: Bundle-Engine-XO-Test.jmx
+2024-06-12 10:39:10,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-12 10:39:10,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-12 10:39:10,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-12 10:39:10,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-06-12 10:39:10,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-06-12 10:39:10,767 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-06-12 10:39:10,779 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-06-12 10:39:10,785 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-06-12 10:39:10,785 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-06-12 10:39:10,785 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-06-12 10:39:10,787 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-06-12 10:39:10,787 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-06-12 10:39:10,813 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-manager-1.9.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-12 10:39:10,850 INFO o.a.j.r.ClassFinder: Will scan jar /opt/homebrew/Cellar/jmeter/5.6.3/libexec/lib/ext/jmeter-plugins-json-2.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-06-12 10:39:10,858 INFO o.a.j.JMeter: Running test (1718203150858)
+2024-06-12 10:39:10,868 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Triggering
+2024-06-12 10:39:10,868 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Triggering.
+2024-06-12 10:39:10,868 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-06-12 10:39:10,868 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-06-12 10:39:10,870 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-06-12 10:39:10,870 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-06-12 10:39:10,886 INFO o.a.j.t.JMeterThread: Thread started: Triggering 1-1
+2024-06-12 10:39:10,886 INFO o.a.j.s.FileServer: Stored: trigger-logic.csv
+2024-06-12 10:39:10,897 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Stevens-MBP
+2024-06-12 10:39:10,900 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-06-12 10:39:10,900 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-06-12 10:39:10,900 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-06-12 10:39:10,900 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-06-12 10:39:10,900 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-06-12 10:39:11,012 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-06-12 10:39:11,014 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-06-12 10:39:11,014 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-06-12 10:39:11,073 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-06-12 10:39:11,074 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-06-12 10:39:11,074 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-06-12 10:39:11,696 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread Triggering 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:trigger-logic.csv detected for CSV DataSet:CSV Data Set Config configured with stopThread:true, recycle:false
+2024-06-12 10:39:11,696 INFO o.a.j.t.JMeterThread: Thread finished: Triggering 1-1
+2024-06-12 10:39:11,698 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-06-12 10:39:11,699 INFO o.a.j.s.FileServer: Close: trigger-logic.csv
+2024-06-12 10:39:11,704 INFO o.a.j.r.Summariser: summary =      5 in 00:00:01 =    5.9/s Avg:   149 Min:    98 Max:   312 Err:     2 (40.00%)

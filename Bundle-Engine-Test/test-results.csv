@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1718203150928,312,Test Case:  TC1,200,OK,Triggering 1-1,text,true,,366,287,1,1,https://fa3xhas615.execute-api.us-east-2.amazonaws.com/dev/bundle-engine-trigger-logic,311,0,256
+1718203151256,109,Test Case:  TC2,200,OK,Triggering 1-1,text,true,,366,287,1,1,https://fa3xhas615.execute-api.us-east-2.amazonaws.com/dev/bundle-engine-trigger-logic,109,0,54
+1718203151365,98,Test Case:  TC3,200,OK,Triggering 1-1,text,true,,366,287,1,1,https://fa3xhas615.execute-api.us-east-2.amazonaws.com/dev/bundle-engine-trigger-logic,98,0,57
+1718203151464,105,Test Case:  TC4,200,OK,Triggering 1-1,text,false,"Value in json path '$..body' expected to be 'Episode 4', but found '[""Could not determine the episode!""]'",389,287,1,1,https://fa3xhas615.execute-api.us-east-2.amazonaws.com/dev/bundle-engine-trigger-logic,105,0,60
+1718203151571,124,Test Case:  TC5,200,OK,Triggering 1-1,text,false,"Value in json path '$..body' expected to be 'Episode 5', but found '[""Could not determine the episode!""]'",389,287,1,1,https://fa3xhas615.execute-api.us-east-2.amazonaws.com/dev/bundle-engine-trigger-logic,123,0,57
