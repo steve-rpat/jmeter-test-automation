@@ -1,16 +1,17 @@
 on: [push]
 jobs:
   Main:
+    name: JMeter CICD
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout
       - name: Run JMeter Tests
-        uses: QAInsights/PerfAction@v3.1
+        uses: QAInsights/PerfAction
         with:
           test-plan-path: Bundle-Engine-Test/Bundle-Engine-XO-Test.jmx
           args: ""
       - name: Upload Results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact
         with:
           name: jmeter-results
           path: result.jtl
