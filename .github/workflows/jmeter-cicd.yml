@@ -6,18 +6,22 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
+
+      - name: Create reports directory
+        run: mkdir reports
       
       - name: Run JMeter Tests
         uses: QAInsights/PerfAction@v3.1
         with:
           test-plan-path: Bundle-Engine-Test/Bundle-Engine-XO-Test.jmx
-          args: ""
+          args: "-e -o ./reports/html/"
           
       - name: Upload Results
         uses: actions/upload-artifact@v4
         with:
           name: jmeter-results
           path: result.jtl
+          if-no-files-found: error
           
       - name: Upload HTML Reports
         uses: actions/upload-artifact@v3
