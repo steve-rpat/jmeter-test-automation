@@ -32,3 +32,6 @@ jobs:
 
       - name: Interpret Results
         run: bash bash-scripts/analyze-results.sh result.jtl
+
+      - name: Try to fail
+        run: exit 1
