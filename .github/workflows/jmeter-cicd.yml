@@ -29,3 +29,6 @@ jobs:
           name: jmeter-html-reports
           path: reports
           if-no-files-found: error
+
+      - name: Interpret Results
+        run: bash bash-scripts/analyze-results.sh result.jtl
