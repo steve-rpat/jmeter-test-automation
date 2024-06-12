@@ -1,17 +1,27 @@
 on: [push]
 jobs:
   Main:
-    name: JMeter CICD Name Change
+    name: JMeter CICD
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+      
       - name: Run JMeter Tests
         uses: QAInsights/PerfAction@v3.1
         with:
           test-plan-path: Bundle-Engine-Test/Bundle-Engine-XO-Test.jmx
           args: ""
+          
       - name: Upload Results
         uses: actions/upload-artifact@v4
         with:
           name: jmeter-results
           path: result.jtl
+          
+      - name: Upload HTML Reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: jmeter-html-reports
+          path: reports
+          if-no-files-found: error
